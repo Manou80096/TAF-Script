@@ -1,4 +1,4 @@
-package com.scripted.apistepdefs;
+/*package com.scripted.apistepdefs;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,7 +20,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.specification.RequestSpecification;
+
 
 
 @Listeners({ AllureListener.class })
@@ -72,7 +72,7 @@ public class stepdefinitions {
 	public void i_send_a_something_request_with_something_properties(String strMethod, String strPropFileName)
 			throws Throwable {
 		raWrapper.setAPIFileProName(strPropFileName + ".properties");
-		RequestSpecification reqSpec = raWrapper.CreateRequest(Attwrapper);
+		//RequestSpecification reqSpec = raWrapper.CreateRequest(Attwrapper);
 		raWrapper.sendRequest(strMethod, reqSpec);
 	}
 
@@ -98,4 +98,4 @@ public class stepdefinitions {
 		}
 
 	}
-}
+}*/

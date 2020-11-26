@@ -99,7 +99,7 @@ public class Generic {
 
 	@Step("This step asserts the browser title")	
 	public void browserCheck() throws Exception {
-		try {
+		try {           
 			BrowserDriver.funcGetWebdriver();
 			AllureListener.setDriver(BrowserDriver.driver);
 			BrowserDriver.launchWebURL("https://www.google.com");

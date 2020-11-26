@@ -39,7 +39,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.specification.RequestSpecification;
+//import io.restassured.specification.RequestSpecification;
 
 public class stepdefinitions {
 
@@ -190,8 +190,8 @@ public class stepdefinitions {
 	public void i_send_a_something_request_with_something_properties(String strMethod, String strPropFileName)
 			throws Throwable {
 		raWrapper.setAPIFileProName(strPropFileName + ".properties");
-		RequestSpecification reqSpec = raWrapper.CreateRequest(Attwrapper);
-		raWrapper.sendRequest(strMethod, reqSpec);
+		//RequestSpecification reqSpec = raWrapper.CreateRequest(Attwrapper);
+		//raWrapper.sendRequest(strMethod, reqSpec);
 	}
 
 	@Then("I should get response code {int}")

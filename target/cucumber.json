@@ -1,0 +1,262 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-26T15:40:39.632Z",
+        "line": 5,
+        "name": "Sample GET method API test without parameters",
+        "description": "",
+        "id": "sample-get-method-api-test-with-and-without-parameters;sample-get-method-api-test-without-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I have sample Get API",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I send a \"Get\" Request with \"SampleGETApi\" properties",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I should get response code 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "the response should contain:",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "JsonPath",
+                  "ExpectedVal"
+                ]
+              },
+              {
+                "cells": [
+                  "data.id",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "data.email",
+                  "janet.weaver@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "data.first_name",
+                  "Janet"
+                ]
+              },
+              {
+                "cells": [
+                  "data.last_name",
+                  "Weaver"
+                ]
+              },
+              {
+                "cells": [
+                  "data.avatar",
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi"
+          },
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T15:40:40.056Z",
+        "line": 18,
+        "name": "Sample GET method API test returns response with json object and array",
+        "description": "",
+        "id": "sample-get-method-api-test-with-and-without-parameters;sample-get-method-api-test-returns-response-with-json-object-and-array",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I have sample Get API",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I send a \"Get\" Request with \"SampleGETApiObAr\" properties",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I should get response code 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "the response should contain:",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "JsonPath",
+                  "ExpectedVal"
+                ]
+              },
+              {
+                "cells": [
+                  "page",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "per_page",
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "total",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "total_pages",
+                  "4"
+                ]
+              },
+              {
+                "cells": [
+                  "data[0].id",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "data[0].email",
+                  "george.bluth@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "data[0].first_name",
+                  "George"
+                ]
+              },
+              {
+                "cells": [
+                  "data[0].last_name",
+                  "Bluth"
+                ]
+              },
+              {
+                "cells": [
+                  "data[0].avatar",
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg"
+                ]
+              },
+              {
+                "cells": [
+                  "data[1].id",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "data[1].email",
+                  "janet.weaver@reqres.in"
+                ]
+              },
+              {
+                "cells": [
+                  "data[1].first_name",
+                  "Janet"
+                ]
+              },
+              {
+                "cells": [
+                  "data[1].last_name",
+                  "Weaver"
+                ]
+              },
+              {
+                "cells": [
+                  "data[1].avatar",
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testApi"
+          },
+          {
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Sample GET method API test with and without parameters",
+    "description": "",
+    "id": "sample-get-method-api-test-with-and-without-parameters",
+    "keyword": "Feature",
+    "uri": "file:Features/Webservices/SampleGETApiTest.feature",
+    "tags": [
+      {
+        "name": "@testApi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

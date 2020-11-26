@@ -124,28 +124,37 @@
 			<groupId>TAF</groupId>
 			<artifactId>TAF-WebServices</artifactId>
 			<version>${SkriptmateVersion}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/TAF-WebServices-0.0.3.jar</systemPath>
 		</dependency>
-		
 		<dependency>
 			<groupId>TAF</groupId>
 			<artifactId>TAF-GenericUtility</artifactId>
 			<version>${SkriptmateVersion}</version>
-		</dependency>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/TAF-GenericUtility-0.0.3.jar</systemPath>
+       	</dependency>
 		<dependency>
 			<groupId>TAF</groupId>
 			<artifactId>TAF-Web</artifactId>
 			<version>${SkriptmateVersion}</version>
-		</dependency>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/TAF-Web-0.0.3.jar</systemPath>
+        </dependency>
 		<dependency>
 			<groupId>TAF</groupId>
 			<artifactId>TAF-Mobile</artifactId>
 			<version>${SkriptmateVersion}</version>
-		</dependency>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/TAF-Mobile-0.0.3.jar</systemPath>
+        </dependency>
 		<dependency>
 			<groupId>TAF</groupId>
 			<artifactId>TAF-Reporting</artifactId>
 			<version>${SkriptmateVersion}</version>
-		</dependency>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/TAF-Reporting-0.0.3.jar</systemPath>
+        </dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
